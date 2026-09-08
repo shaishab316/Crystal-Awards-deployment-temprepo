@@ -58,6 +58,13 @@ export function SiteFooter() {
           >
             {site.brand.email}
           </a>
+
+          <a
+            href={`tel:${site.brand.phone}`}
+            className="mt-5 block text-sm text-white/60 transition-colors hover:text-gold"
+          >
+            {site.brand.phone}
+          </a>
           <Link
             href="/contact"
             className="dashed-cta mt-8 inline-block text-xs uppercase tracking-[0.28em] text-gold"

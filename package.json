@@ -2,6 +2,7 @@
   "name": "crystal-awards",
   "version": "0.1.0",
   "private": true,
+  "author": "https://github.com/shaishab316",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

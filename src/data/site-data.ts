@@ -12,6 +12,7 @@ export const siteContentData: SiteContent = {
     tagline: "Crafted for Champions Worldwide",
     established: "1742",
     email: "companycrystalawards@gmail.com",
+    phone: "813-948-6441"
   },
   hero: {
     eyebrow: "Swedish Crystal Heritage · Est. 1742",
@@ -216,8 +217,8 @@ export const collectionsData: Collection[] = [
     tagline: "Gaming floor prestige awards",
     description:
       "High-impact crystal for casino and gaming recognition — stars, diamonds, and custom branded sculptures.",
-    coverImage: "/images/products/awards-3.jpeg",
-    images: ["/images/products/awards-3.jpeg", "/images/products/awards-4.jpeg"],
+    coverImage: "/images/products/a87ac9a35_3DCollectionPresidentAward.avif",
+    images: ["/images/products/a87ac9a35_3DCollectionPresidentAward.avif", "/images/products/awards-4.jpeg"],
     keywords: ["Casino Gaming Awards", "Star Awards", "Diamond Awards"],
   },
   {
@@ -229,7 +230,7 @@ export const collectionsData: Collection[] = [
     description:
       "One masterpiece or an entire gala program. Custom-cut crystal with complimentary digital proofs and laser engraving.",
     coverImage: "/images/products/guitar.png",
-    images: ["/images/products/guitar.png", "/images/products/hero-crystal.jpeg"],
+    images: ["/images/products/guitar.png", "/images/products/rush-general-collection-thank-you-2027.avif"],
     keywords: ["Customized Crystal Awards", "Personalized Logo Trophies"],
     featured: true,
   },

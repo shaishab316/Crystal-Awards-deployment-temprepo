@@ -40,6 +40,7 @@ export type SiteContent = {
     tagline: string;
     established: string;
     email: string;
+    phone: string;
   };
   hero: {
     eyebrow: string;
@@ -73,11 +74,11 @@ export type SiteContent = {
 };
 
 export type AwardCategory =
-  | "Golf Tournament"
-  | "Corporate Recognition"
-  | "Sports Championship"
-  | "Executive Award"
-  | "Special Event"
-  | "Custom Sculpture"
-  | "Animal Motif"
-  | "Other";
+  | 'Golf Tournament'
+  | 'Corporate Recognition'
+  | 'Sports Championship'
+  | 'Executive Award'
+  | 'Special Event'
+  | 'Custom Sculpture'
+  | 'Animal Motif'
+  | 'Other';

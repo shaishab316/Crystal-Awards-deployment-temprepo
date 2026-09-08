@@ -26,7 +26,7 @@ export function HeroSection({ content, established }: Props) {
       className="relative flex min-h-screen items-center justify-center overflow-hidden ghost-lines"
     >
       <Image
-        src="/images/products/hero-crystal.jpeg"
+        src="/images/products/rush-general-collection-thank-you-2027.avif"
         alt="Swedish crystal awards catching light"
         fill
         priority

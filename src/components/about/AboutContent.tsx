@@ -39,7 +39,7 @@ export function AboutContent({ about, quote }: Props) {
             className="relative aspect-[4/5] overflow-hidden border border-gold/15"
           >
             <Image
-              src="/images/products/awards-3.jpeg"
+              src="/images/products/a87ac9a35_3DCollectionPresidentAward.avif"
               alt="Crystal awards crafted by Peter Johansson"
               fill
               className="object-cover"
