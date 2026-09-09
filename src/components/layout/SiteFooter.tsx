@@ -1,5 +1,6 @@
-import Link from "next/link";
-import { contentRepository } from "@/lib/repositories";
+import Link from 'next/link';
+import { contentRepository } from '@/lib/repositories';
+import { BsFillTelephoneFill } from 'react-icons/bs';
 
 export function SiteFooter() {
   const site = contentRepository.getSite();
@@ -16,10 +17,13 @@ export function SiteFooter() {
             Every great achievement deserves to be remembered with an award of
             exceptional beauty.
           </p>
-          <div className="mt-6 flex items-center gap-3 text-xs uppercase tracking-[0.25em] text-white/40">
-            <span className="swedish-flag" aria-hidden />
-            Crafted in Sweden
-          </div>
+          <a
+            href={`tel:${site.brand.phone}`}
+            className="mt-5 text-sm text-white/60 transition-colors hover:text-gold flex items-center gap-2"
+          >
+            <BsFillTelephoneFill />
+            {site.brand.phone}
+          </a>
         </div>
 
         <div>
@@ -59,12 +63,6 @@ export function SiteFooter() {
             {site.brand.email}
           </a>
 
-          <a
-            href={`tel:${site.brand.phone}`}
-            className="mt-5 block text-sm text-white/60 transition-colors hover:text-gold"
-          >
-            {site.brand.phone}
-          </a>
           <Link
             href="/contact"
             className="dashed-cta mt-8 inline-block text-xs uppercase tracking-[0.28em] text-gold"
@@ -75,7 +73,7 @@ export function SiteFooter() {
       </div>
 
       <div className="border-t border-gold/10 px-6 py-6 text-center text-[11px] tracking-[0.2em] text-white/30 lg:px-12">
-        © {new Date().getFullYear()} {site.brand.name}. Est.{" "}
+        © {new Date().getFullYear()} {site.brand.name}. Est.{' '}
         {site.brand.established}. All rights reserved.
       </div>
     </footer>
