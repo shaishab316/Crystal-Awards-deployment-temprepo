@@ -9,6 +9,7 @@ import { AwardTicker } from '@/components/home/AwardTicker';
 import { ProcessStrip } from '@/components/home/ProcessStrip';
 import { FounderQuote } from '@/components/home/FounderQuote';
 import { RushOrdersSection } from '@/components/home/RushOrdersSection';
+import { CrystalInMotion } from '@/components/home/CrystalInMotion';
 
 export default function HomePage() {
   const site = contentRepository.getSite();
@@ -22,6 +23,7 @@ export default function HomePage() {
       <AwardTicker names={awardRepository.getTickerNames()} />
       <RushOrdersSection />
       {/* <PremierAwardsSection awards={awards} collections={collections} /> */}
+      <CrystalInMotion />
       <ProcessStrip steps={steps} />
       <FounderQuote quote={site.quote} />
     </>

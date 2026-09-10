@@ -45,3 +45,4 @@ next-env.d.ts
 !/public/uploads/.gitkeep
 
 public/new-images
+public/videos
