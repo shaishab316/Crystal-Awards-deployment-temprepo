@@ -29,7 +29,7 @@ export function PremierAwardsSection({ awards, collections }: Props) {
           </h2>
           <div className="mx-auto mt-6 h-px w-16 bg-gold" />
           <p className="mt-6 text-sm text-white/50">
-            Custom Swedish Crystal Trophies & Recognition Awards
+            Custom Crystal Trophies & Recognition Awards
           </p>
         </motion.div>
 

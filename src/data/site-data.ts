@@ -7,15 +7,15 @@ import type {
 
 export const siteContentData: SiteContent = {
   brand: {
-    name: 'Swedish Crystal Heritage',
-    shortName: 'Swedish Crystal',
+    name: 'Best Crystal Awards',
+    shortName: 'Best Crystal',
     tagline: 'Crafted for Champions Worldwide',
-    established: '1742',
+    established: '',
     email: 'companycrystalawards@gmail.com',
     phone: '813-948-6441',
   },
   hero: {
-    eyebrow: 'Swedish Crystal Heritage · Est. 1742',
+    eyebrow: 'Premium Custom Crystal Awards',
     titleLine1: 'Crafted for',
     titleAccent: 'Champions',
     titleItalic: '& The Quality Minded',
@@ -26,14 +26,14 @@ export const siteContentData: SiteContent = {
   quote: {
     text: 'If you can imagine it, we can create it in crystal.',
     attribution: 'Peter Johansson, Founder',
-    credential: 'Trained at Kosta Boda Crystal Factory · Est. 1742',
+    credential: 'Master Crystal Artisan · Over 30 Years of Excellence',
   },
   about: {
     eyebrow: 'Our Story',
     title: 'Master Artisan. Factory Direct.',
     founderName: 'Peter Johansson',
     paragraphs: [
-      "Beginning his journey at the age of 15 at Sweden's legendary Kosta Boda factory (founded in 1742), Peter Johansson mastered every fundamental tier of the discipline — building high-temperature furnaces from the ground up, developing proprietary crystal mixtures engineered for flawless optical clarity, and hand-cutting complex pieces now proudly displayed with the Royal Family of Sweden.",
+      "Beginning his journey at the age of 15 at a legendary European crystal factory, Peter Johansson mastered every fundamental tier of the discipline — building high-temperature furnaces from the ground up, developing proprietary crystal mixtures engineered for flawless optical clarity, and hand-cutting complex pieces now proudly displayed with prestigious collections worldwide.",
       'For the past 30 years, Johansson has operated his own state-of-the-art production facility, personally training every artisan to replicate these historic European standards. By bypassing traditional distributor networks, the studio offers heritage craftsmanship and logistical flexibility to the corporate recognition and tournament awards market — from a single bespoke masterpiece to full-scale event programs.',
       '"An award should never be treated like a mass-produced commodity," says Peter Johansson. "Every curve, polished edge, and engraved detail must reflect the exact significance of the milestone it celebrates."',
     ],
@@ -53,19 +53,19 @@ export const siteContentData: SiteContent = {
     ],
     timeline: [
       {
-        year: '1742',
-        title: 'Kosta Boda Founded',
-        body: "Sweden's legendary crystal factory establishes the lineage of European optical craft.",
+        year: 'Origins',
+        title: 'European Crystal Heritage',
+        body: 'A legendary crystal factory establishes the lineage of European optical craft.',
       },
       {
         year: 'Age 15',
         title: 'The Apprenticeship',
-        body: 'Peter begins at Kosta Boda, mastering furnaces, mixtures, and hand-cutting from the ground up.',
+        body: 'Peter begins his apprenticeship at a legendary crystal factory, mastering furnaces, mixtures, and hand-cutting from the ground up.',
       },
       {
         year: 'Royal Works',
         title: 'Pieces for the Crown',
-        body: 'Complex crystal creations enter collections displayed with the Royal Family of Sweden.',
+        body: 'Complex crystal creations enter prestigious collections displayed with royalty.',
       },
       {
         year: '30+ Years',

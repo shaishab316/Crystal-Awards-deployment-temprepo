@@ -39,10 +39,10 @@ export function SiteHeader() {
       <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-6 lg:px-12">
         <Link href="/" className="group flex flex-col">
           <span className="font-display text-lg tracking-[0.18em] text-white transition-colors group-hover:text-gold sm:text-xl">
-            SWEDISH CRYSTAL
+            BEST CRYSTAL AWARDS
           </span>
           <span className="text-[10px] uppercase tracking-[0.35em] text-gold">
-            Heritage · Est. 1742
+            Premium Custom Crystal
           </span>
         </Link>
 
@@ -74,6 +74,12 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-4">
+          <a
+            href="tel:813-948-6441"
+            className="hidden text-[11px] uppercase tracking-[0.2em] text-white/60 transition-colors duration-300 hover:text-gold lg:inline-block"
+          >
+            813-948-6441
+          </a>
           <Link
             href="/contact"
             className="hidden border border-gold px-5 py-2 text-[11px] uppercase tracking-[0.28em] text-gold transition-colors duration-300 hover:bg-gold hover:text-obsidian sm:inline-block"

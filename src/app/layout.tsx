@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     template: `%s · ${site.brand.name}`,
   },
   description:
-    "Premium custom Swedish crystal awards for championships, corporate recognition, and special events. Factory-direct from master artisan Peter Johansson. No minimum orders.",
+    "Premium custom crystal awards for championships, corporate recognition, and special events. Factory-direct from master artisan Peter Johansson. No minimum orders.",
   keywords: contentRepository.getSeoKeywords(),
   authors: [{ name: "Peter Johansson" }],
   openGraph: {

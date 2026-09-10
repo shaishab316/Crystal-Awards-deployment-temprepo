@@ -27,7 +27,7 @@ export function HeroSection({ content, established }: Props) {
     >
       <Image
         src="/images/products/rush-general-collection-thank-you-2027.avif"
-        alt="Swedish crystal awards catching light"
+        alt="Crystal awards catching light"
         fill
         priority
         className="object-cover object-center"

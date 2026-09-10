@@ -26,7 +26,7 @@ export function AboutContent({ about, quote }: Props) {
           </h1>
           <div className="mt-6 h-px w-16 bg-gold" />
           <p className="mt-6 text-sm text-white/50">
-            Kosta Boda Crystal Factory · Est. 1742
+            Master Crystal Artisan · Over 30 Years of Excellence
           </p>
         </header>
 

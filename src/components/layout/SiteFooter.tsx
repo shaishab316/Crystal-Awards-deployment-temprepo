@@ -73,8 +73,7 @@ export function SiteFooter() {
       </div>
 
       <div className="border-t border-gold/10 px-6 py-6 text-center text-[11px] tracking-[0.2em] text-white/30 lg:px-12">
-        © {new Date().getFullYear()} {site.brand.name}. Est.{' '}
-        {site.brand.established}. All rights reserved.
+        © {new Date().getFullYear()} {site.brand.name}. All rights reserved.
       </div>
     </footer>
   );

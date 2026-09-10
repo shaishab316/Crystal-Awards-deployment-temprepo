@@ -8,7 +8,7 @@ import { ContactForm } from "@/components/forms/ContactForm";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Commission a custom Swedish crystal award or request a complimentary digital design proof. Direct from Peter Johansson's studio.",
+    "Commission a custom crystal award or request a complimentary digital design proof. Direct from Peter Johansson's studio.",
 };
 
 export default function ContactPage() {

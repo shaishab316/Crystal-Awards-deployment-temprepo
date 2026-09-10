@@ -40,7 +40,7 @@ export function FounderQuote({ quote }: Props) {
           Explore Our Design Process
         </Link>
         <div className="flex items-center gap-3 text-xs uppercase tracking-[0.25em] text-white/40">
-          <span className="swedish-flag" aria-hidden />
+          <span className="text-gold">✦</span>
           Discover how we craft unique awards
         </div>
         <Link

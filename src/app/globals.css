@@ -8,8 +8,6 @@
   --gold-muted: rgba(201, 169, 110, 0.15);
   --prussian: #3e5c76;
   --frosted: #e2e8f0;
-  --swedish-blue: #006aa7;
-  --swedish-yellow: #fecc02;
   --background: var(--obsidian);
   --foreground: #f5f5f4;
 }
@@ -193,30 +191,3 @@ body {
   animation: marquee 40s linear infinite;
 }
 
-.swedish-flag {
-  display: inline-block;
-  width: 18px;
-  height: 12px;
-  background: var(--swedish-blue);
-  position: relative;
-}
-
-.swedish-flag::before {
-  content: "";
-  position: absolute;
-  left: 5px;
-  top: 0;
-  width: 3px;
-  height: 100%;
-  background: var(--swedish-yellow);
-}
-
-.swedish-flag::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 4px;
-  width: 100%;
-  height: 3px;
-  background: var(--swedish-yellow);
-}

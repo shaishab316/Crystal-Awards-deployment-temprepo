@@ -5,7 +5,7 @@ import { ProcessContent } from "@/components/process/ProcessContent";
 export const metadata: Metadata = {
   title: "Process",
   description:
-    "Six stages of Swedish crystal craftsmanship — consultation, design, production, engraving, inspection, and worldwide presentation.",
+    "Six stages of crystal craftsmanship — consultation, design, production, engraving, inspection, and worldwide presentation.",
 };
 
 export default function ProcessPage() {

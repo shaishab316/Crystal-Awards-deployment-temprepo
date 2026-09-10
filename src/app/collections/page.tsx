@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Collections",
   description:
-    "Browse the archive of Swedish crystal awards — animals, executive pieces, sports trophies, nautical, musical, and bespoke custom cuts.",
+    "Browse the archive of crystal awards — animals, executive pieces, sports trophies, nautical, musical, and bespoke custom cuts.",
 };
 
 export default async function CollectionsPage() {

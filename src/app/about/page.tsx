@@ -5,7 +5,7 @@ import { AboutContent } from "@/components/about/AboutContent";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Meet master artisan Peter Johansson — trained at Kosta Boda since age 15, creating royal-caliber crystal awards for the global corporate elite.",
+    "Meet master artisan Peter Johansson — over 30 years of crystal craftsmanship, creating royal-caliber crystal awards for the global corporate elite.",
 };
 
 export default function AboutPage() {

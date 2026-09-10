@@ -1,4 +1,4 @@
-# Swedish Crystal Heritage
+# Best Crystal Awards
 
 Premium custom crystal awards website for master artisan Peter Johansson — Next.js App Router, Tailwind CSS, Framer Motion.
 
