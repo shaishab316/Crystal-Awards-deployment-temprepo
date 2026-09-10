@@ -30,6 +30,7 @@ export default function ContactPage() {
 
         <ContactForm
           email={site.brand.email}
+          phone={site.brand.phone}
           categories={categories}
           proof={site.proofForm}
         />

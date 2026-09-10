@@ -1,28 +1,29 @@
-"use client";
+'use client';
 
-import { FormEvent, useState } from "react";
-import Image from "next/image";
-import type { SiteContent } from "@/lib/types";
+import { FormEvent, useState } from 'react';
+import Image from 'next/image';
+import type { SiteContent } from '@/lib/types';
 
 type Props = {
   email: string;
+  phone: string;
   categories: readonly string[];
-  proof: SiteContent["proofForm"];
+  proof: SiteContent['proofForm'];
 };
 
 const scales = [
-  "Single Piece",
-  "Small Event",
-  "Corporate",
-  "Tournament",
-  "Global Championship",
+  'Single Piece',
+  'Small Event',
+  'Corporate',
+  'Tournament',
+  'Global Championship',
 ];
 
-export function ContactForm({ email, categories, proof }: Props) {
+export function ContactForm({ email, phone, categories, proof }: Props) {
   const [scale, setScale] = useState(2);
   const [category, setCategory] = useState(categories[1]);
   const [submitted, setSubmitted] = useState(false);
-  const [mode, setMode] = useState<"commission" | "proof">("commission");
+  const [mode, setMode] = useState<'commission' | 'proof'>('commission');
 
   const onSubmit = (e: FormEvent) => {
     e.preventDefault();
@@ -34,7 +35,7 @@ export function ContactForm({ email, categories, proof }: Props) {
       <div className="prismatic px-8 py-16 text-center">
         <p className="text-4xl text-gold">✦</p>
         <h2 className="mt-4 font-display text-4xl text-white">
-          {mode === "proof" ? "Proof Request Received" : "Commission Received"}
+          {mode === 'proof' ? 'Proof Request Received' : 'Commission Received'}
         </h2>
         <p className="mx-auto mt-4 max-w-md text-sm text-white/50">
           Peter Johansson&apos;s studio will personally review your request and
@@ -76,29 +77,29 @@ export function ContactForm({ email, categories, proof }: Props) {
         <div className="mb-8 flex gap-2">
           <button
             type="button"
-            onClick={() => setMode("commission")}
+            onClick={() => setMode('commission')}
             className={`px-4 py-2 text-[11px] uppercase tracking-[0.22em] ${
-              mode === "commission"
-                ? "bg-gold text-obsidian"
-                : "border border-gold/30 text-gold"
+              mode === 'commission'
+                ? 'bg-gold text-obsidian'
+                : 'border border-gold/30 text-gold'
             }`}
           >
             Commission
           </button>
           <button
             type="button"
-            onClick={() => setMode("proof")}
+            onClick={() => setMode('proof')}
             className={`px-4 py-2 text-[11px] uppercase tracking-[0.22em] ${
-              mode === "proof"
-                ? "bg-gold text-obsidian"
-                : "border border-gold/30 text-gold"
+              mode === 'proof'
+                ? 'bg-gold text-obsidian'
+                : 'border border-gold/30 text-gold'
             }`}
           >
             Free Digital Proof
           </button>
         </div>
 
-        {mode === "commission" ? (
+        {mode === 'commission' ? (
           <>
             <h2 className="font-display text-4xl font-light text-white sm:text-5xl">
               Begin Your
@@ -120,7 +121,7 @@ export function ContactForm({ email, categories, proof }: Props) {
                 />
                 <div className="mt-2 flex justify-between text-[9px] uppercase tracking-[0.15em] text-white/30">
                   {scales.map((s) => (
-                    <span key={s}>{s.split(" ")[0]}</span>
+                    <span key={s}>{s.split(' ')[0]}</span>
                   ))}
                 </div>
               </div>
@@ -137,8 +138,8 @@ export function ContactForm({ email, categories, proof }: Props) {
                       onClick={() => setCategory(c)}
                       className={`border px-3 py-1.5 text-[10px] uppercase tracking-[0.15em] transition-colors ${
                         category === c
-                          ? "border-gold bg-gold/15 text-gold"
-                          : "border-gold/20 text-white/40 hover:border-gold/40"
+                          ? 'border-gold bg-gold/15 text-gold'
+                          : 'border-gold/20 text-white/40 hover:border-gold/40'
                       }`}
                     >
                       {c}
@@ -184,9 +185,16 @@ export function ContactForm({ email, categories, proof }: Props) {
                 Submit Commission Request
               </button>
               <p className="text-center text-[11px] text-white/35">
-                Personal review · Response within 24 hours · Or email{" "}
-                <a href={`mailto:${email}`} className="text-gold">
+                Personal review · Response within 24 hours · Or reach us at{' '}
+                <a
+                  href={`mailto:${email}`}
+                  className="text-gold hover:underline"
+                >
                   {email}
+                </a>{' '}
+                or{' '}
+                <a href={`tel:${phone}`} className="text-gold hover:underline">
+                  {phone}
                 </a>
               </p>
             </form>
