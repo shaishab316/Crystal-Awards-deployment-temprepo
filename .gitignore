@@ -43,3 +43,5 @@ next-env.d.ts
 /data/managed-content.json
 /public/uploads/*
 !/public/uploads/.gitkeep
+
+public/new-images

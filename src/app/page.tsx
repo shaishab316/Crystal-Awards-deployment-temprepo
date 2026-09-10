@@ -1,19 +1,19 @@
 import {
   awardRepository,
-  collectionRepository,
+  // collectionRepository,
   contentRepository,
 } from '@/lib/repositories';
 import { HeroSection } from '@/components/home/HeroSection';
 import { AwardTicker } from '@/components/home/AwardTicker';
-import { PremierAwardsSection } from '@/components/home/PremierAwardsSection';
+// import { PremierAwardsSection } from '@/components/home/PremierAwardsSection';
 import { ProcessStrip } from '@/components/home/ProcessStrip';
 import { FounderQuote } from '@/components/home/FounderQuote';
 import { RushOrdersSection } from '@/components/home/RushOrdersSection';
 
 export default function HomePage() {
   const site = contentRepository.getSite();
-  const awards = awardRepository.getFeatured();
-  const collections = collectionRepository.getAll();
+  // const awards = awardRepository.getFeatured();
+  // const collections = collectionRepository.getAll();
   const steps = contentRepository.getProcessSteps();
 
   return (
@@ -21,7 +21,7 @@ export default function HomePage() {
       <HeroSection content={site.hero} established={site.brand.established} />
       <AwardTicker names={awardRepository.getTickerNames()} />
       <RushOrdersSection />
-      <PremierAwardsSection awards={awards} collections={collections} />
+      {/* <PremierAwardsSection awards={awards} collections={collections} /> */}
       <ProcessStrip steps={steps} />
       <FounderQuote quote={site.quote} />
     </>
